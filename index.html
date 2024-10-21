@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Central Historical Museum</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Arima:wght@100..700&family=Quicksand:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="normalize.css" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header id="header">
+  <nav>
+    <div class="logo">
+      <img src="/assets/lahincapie_1dev4.png" alt="Logo" />
+    </div>
+    <ul class="nav-links">
+      <li><a href="#header">Home</a></li>
+      <li><a href="#content-section">¿Qué es un Ingeniero Multimedia?</a></li>
+      <li><a href="#mirror-section">Habilidades de un Ingeniero Multimedia</a></li>
+      <li><a href="#cards-section">Ejemplos Proyectos</a></li>
+    </ul>
+  </nav>
+  <section class="banner">
+    <h1>Fundamentos del <br />Ingeniero Multimedia</h1>
+  </section>
+</header>
+
+    <section id="content-section" class="content-section">
+      <div class="image-container">
+        <img
+          src="/assets/imagen_multimedia.webp"
+          alt="Descripción de la imagen"
+        />
+      </div>
+      <div class="text-container">
+        <h2>¿Qué es un Ingeniero Multimedia?</h2>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum sed
+          explicabo accusamus reprehenderit! Voluptatum fuga tempora iste harum
+          repellendus a itaque? Vitae deleniti nam maiores, ullam officia
+          veritatis quas quibusdam.
+        </p>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet, velit
+          aliquam praesentium nemo eaque quibusdam autem accusamus quis tempore.
+          Maiores quae doloribus impedit quis vel unde incidunt debitis neque
+          dicta.
+        </p>
+      </div>
+    </section>
+
+    <section id="mirror-section" class="content-section mirror-section">
+      <div class="text-container">
+        <h2>Habilidades de un Ingeniero Multimedia</h2>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum sed
+          explicabo accusamus <span class="term" data-term="reprehenderit">reprehenderit!</span> Voluptatum fuga tempora iste harum
+          repellendus a itaque? Vitae deleniti nam maiores, ullam officia
+          veritatis quas <span class="term" data-term="quibusdam">quibusdam</span>.
+        </p>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet, velit
+          aliquam praesentium nemo <span class="term" data-term="eaque">eaque</span> autem accusamus quis tempore.
+          Maiores quae doloribus impedit quis vel unde incidunt debitis neque
+          dicta.
+        </p>
+      </div>
+      <div class="image-container">
+        <img
+          src="/assets/imagen_multimedia.webp"
+          alt="Descripción de la imagen"
+        />
+      </div>
+    </section>
+    
+    <!-- Modal Structure (hidden by default) -->
+    <div id="modal" class="modal">
+      <div class="modal-content">
+        <span class="close-modal">&times;</span>
+        <h2 id="modal-title">Termino</h2>
+        <p id="modal-body">Aquí va la explicación del término.</p>
+      </div>
+    </div>
+
+    <section id="cards-section" class="cards-section">
+      <div class="card">
+        <img src="/assets/imagen_multimedia.webp" alt="Imagen 1">
+        <h3>Ejemplos Proyectos 1</h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque
+          venenatis diam non sem elementum, a aliquam urna maximus.
+        </p>
+      </div>
+    
+      <div class="card">
+        <img src="/assets/imagen_multimedia.webp" alt="Imagen 2">
+        <h3>Ejemplos Proyectos 2</h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque
+          venenatis diam non sem elementum, a aliquam urna maximus.
+        </p>
+      </div>
+    
+      <div class="card">
+        <img src="/assets/imagen_multimedia.webp" alt="Imagen 3">
+        <h3>Ejemplos Proyectos 3</h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque
+          venenatis diam non sem elementum, a aliquam urna maximus.
+        </p>
+      </div>
+    </section>
+    
+    <footer class="footer">
+      <div class="footer-container">
+        <p>Conéctate con nosotros en nuestras redes sociales:</p>
+        <ul class="social-links">
+          <li><a href="https://github.com" target="_blank">GitHub</a></li>
+          <li><a href="https://x.com" target="_blank">X (Twitter)</a></li>
+          <li><a href="https://instagram.com" target="_blank">Instagram</a></li>
+          <li><a href="mailto:contacto@ejemplo.com">Correo</a></li>
+        </ul>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
